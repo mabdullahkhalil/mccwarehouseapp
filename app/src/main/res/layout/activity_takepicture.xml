@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent"
+    xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developer.mabdullahk.mccwarehouse.takepicture">
+    <Button n1:textColor="@android:color/white" n1:id="@id/btnlogout" n1:background="#ff303f9f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip" n1:text="Logout" n1:layout_marginStart="8.0dip" n2:layout_constraintBottom_toBottomOf="parent" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintHorizontal_bias="1.0" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent" n2:layout_constraintVertical_bias="0.0" style="@style/Widget.AppCompat.Button" xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:layout_marginLeft="8.0dip" />
+    <Button n1:textColor="@android:color/white" n1:id="@id/btnback" n1:background="#ff303f9f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip" n1:text="Back" n1:layout_marginEnd="8.0dip" n3:layout_constraintBottom_toBottomOf="parent" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintHorizontal_bias="0.0" n3:layout_constraintStart_toStartOf="parent" n3:layout_constraintTop_toTopOf="parent" n3:layout_constraintVertical_bias="0.0" style="@style/Widget.AppCompat.Button" xmlns:n3="http://schemas.android.com/apk/res-auto"
+        n1:layout_marginRight="8.0dip" />
+    <Button n1:textStyle="bold" n1:textColor="@android:color/white" n1:id="@+id/takepic" n1:background="@android:color/holo_blue_light" n1:layout_width="300.0dip" n1:layout_height="70.0dip" n1:layout_marginTop="8.0dip" n1:layout_marginBottom="8.0dip" n1:text="Take picture and Upload" n1:layout_marginStart="8.0dip" n1:layout_marginEnd="8.0dip" n4:layout_constraintBottom_toBottomOf="parent" n4:layout_constraintEnd_toEndOf="parent" n4:layout_constraintStart_toStartOf="parent" n4:layout_constraintTop_toTopOf="parent" n4:layout_constraintVertical_bias="0.43" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</android.support.constraint.ConstraintLayout>

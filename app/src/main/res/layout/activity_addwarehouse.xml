@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.developer.mabdullahk.mccwarehouse.addwarehouse">
+
+
+
+    <Button android:id="@+id/outlog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="Logout" android:layout_marginStart="236.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginLeft="236.0dip"
+        android:layout_marginRight="8.0dip" />
+    <EditText android:id="@+id/txtwarehouseName"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:hint="Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <Button android:textColor="@android:color/white" android:id="@id/btnback" android:background="#ff303f9f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Back" android:layout_marginEnd="8.0dip" n3:layout_constraintBottom_toBottomOf="parent" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintHorizontal_bias="0.0" n3:layout_constraintStart_toStartOf="parent" n3:layout_constraintTop_toTopOf="parent" n3:layout_constraintVertical_bias="0.0" style="@style/Widget.AppCompat.Button" xmlns:n3="http://schemas.android.com/apk/res-auto"
+        android:layout_marginRight="8.0dip" />
+    
+    <EditText android:id="@+id/txtcontactPhone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="Phone Number" android:ems="10" android:inputType="phone" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.524" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <EditText android:id="@+id/txtvalidity" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="Validity" android:ems="10" android:inputType="textPersonName" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" n6:layout_constraintBottom_toBottomOf="parent" n6:layout_constraintEnd_toEndOf="parent" n6:layout_constraintHorizontal_bias="0.0" n6:layout_constraintStart_toStartOf="parent" n6:layout_constraintTop_toTopOf="parent" n6:layout_constraintVertical_bias="0.653" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <EditText android:id="@+id/txtface" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="Face size" android:ems="10" android:inputType="textPersonName" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" n7:layout_constraintBottom_toBottomOf="parent" n7:layout_constraintEnd_toEndOf="parent" n7:layout_constraintHorizontal_bias="0.0" n7:layout_constraintStart_toStartOf="parent" n7:layout_constraintTop_toTopOf="parent" n7:layout_constraintVertical_bias="0.76" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    <EditText android:id="@+id/txtlocation" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="Location" android:ems="10" android:inputType="textPersonName" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" n8:layout_constraintBottom_toBottomOf="parent" n8:layout_constraintEnd_toEndOf="parent" n8:layout_constraintHorizontal_bias="0.0" n8:layout_constraintStart_toStartOf="parent" n8:layout_constraintTop_toTopOf="parent" n8:layout_constraintVertical_bias="0.3" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <EditText android:id="@+id/txtcontactperson" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:hint="Contact Person" android:ems="10" android:inputType="textPersonName" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" n9:layout_constraintBottom_toBottomOf="parent" n9:layout_constraintEnd_toEndOf="parent" n9:layout_constraintHorizontal_bias="0.0" n9:layout_constraintStart_toStartOf="parent" n9:layout_constraintTop_toTopOf="parent" n9:layout_constraintVertical_bias="0.413" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+
+    <TextView xmlns:android0="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:text="Adding Warehouse Data"
+        android:textSize="18.0sp"
+        android0:layout_constraintBottom_toBottomOf="parent"
+        android0:layout_constraintEnd_toEndOf="parent"
+        android0:layout_constraintHorizontal_bias="0.451"
+        android0:layout_constraintStart_toStartOf="parent"
+        android0:layout_constraintTop_toTopOf="parent"
+        android0:layout_constraintVertical_bias="0.093" />
+    <Button android:id="@+id/btnaddingwarehouse" android:layout_width="227.0dip" android:layout_height="44.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="Add warehouse" android:onClick="btnRegister_click" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android1:layout_constraintBottom_toBottomOf="parent" android1:layout_constraintEnd_toEndOf="parent" android1:layout_constraintStart_toStartOf="parent" android1:layout_constraintTop_toTopOf="parent" android1:layout_constraintVertical_bias="0.937" xmlns:android1="http://schemas.android.com/apk/res-auto" />
+</android.support.constraint.ConstraintLayout>

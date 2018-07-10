@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Button n1:id="@+id/outlog" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="7.0dip" n1:text="Logout" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" n2:layout_constraintBottom_toBottomOf="parent" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintHorizontal_bias="1.0" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent" n2:layout_constraintVertical_bias="0.0" xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:layout_alignParentRight="true" />
+    <Button n1:textColor="@android:color/white" n1:id="@+id/btnback" n1:background="#ff303f9f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip" n1:text="Back" n1:layout_marginEnd="8.0dip" n3:layout_constraintBottom_toBottomOf="parent" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintHorizontal_bias="0.0" n3:layout_constraintStart_toStartOf="parent" n3:layout_constraintTop_toTopOf="parent" n3:layout_constraintVertical_bias="0.0" style="@style/Widget.AppCompat.Button" xmlns:n3="http://schemas.android.com/apk/res-auto"
+        n1:layout_marginRight="8.0dip" />
+
+    <RelativeLayout
+        n1:id="@+id/relLayout1"
+        n1:layout_width="fill_parent"
+        n1:layout_height="50.0dip"
+        n1:layout_below="@+id/name"
+        n1:layout_centerHorizontal="true"
+        n1:layout_marginTop="23dp"
+        n1:background="@drawable/white_border">
+
+        <ImageView
+            n1:id="@+id/ic_magnify"
+            n1:layout_width="15.0dip"
+            n1:layout_height="15.0dip"
+            n1:layout_centerVertical="true"
+            n1:layout_marginLeft="10.0dip"
+            n1:src="@drawable/ic_magnify" />
+
+        <Spinner
+            n1:id="@+id/spinner"
+            n1:layout_width="340dp"
+            n1:layout_height="fill_parent"
+            n1:layout_alignParentEnd="true"
+            n1:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <ListView
+        n1:id="@id/checkable_list"
+        n1:layout_width="fill_parent"
+        n1:layout_height="200.0dip"
+        n1:layout_alignParentBottom="true"
+        n1:layout_alignParentStart="true"
+        n1:layout_marginBottom="38dp" />
+    <TextView n1:textSize="20.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/name" n1:layout_width="150.0dip" n1:layout_height="50.0dip" n1:layout_marginTop="21.0dip" n1:layout_below="@id/outlog" n1:layout_centerHorizontal="true" n1:textAllCaps="true" n1:textAlignment="center" />
+
+    <Button
+        n1:id="@+id/attendancebtn"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_alignParentStart="true"
+        n1:layout_below="@+id/relLayout1"
+        n1:layout_marginStart="22dp"
+        n1:layout_marginTop="13dp"
+        n1:text="Attendance" />
+
+    <Button
+        n1:id="@+id/warehousebtn"
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_alignBottom="@+id/attendancebtn"
+        n1:layout_alignParentEnd="true"
+        n1:layout_marginEnd="51dp"
+        n1:text="warehouse" />
+
+</RelativeLayout>

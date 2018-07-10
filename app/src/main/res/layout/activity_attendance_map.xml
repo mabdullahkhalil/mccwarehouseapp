@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent"
+    xmlns:n1="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developer.mabdullahk.mccwarehouse.attendance">
+
+
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" n1:id="@+id/map" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true"
+        n1:layout_alignParentLeft="true" />
+    <RelativeLayout n1:id="@+id/relLayout1" n1:background="@drawable/white_border" n1:layout_width="fill_parent" n1:layout_height="50.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="10.0dip">
+        <ImageView n1:id="@+id/ic_magnify" n1:layout_width="15.0dip" n1:layout_height="15.0dip" n1:layout_marginLeft="10.0dip" n1:src="@drawable/ic_magnify" n1:layout_centerVertical="true" />
+
+        <Spinner
+            n1:id="@+id/spinner"
+            n1:layout_width="340dp"
+            n1:layout_height="fill_parent"
+            n1:layout_alignParentEnd="true"
+            n1:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <ImageView n1:id="@+id/ic_gps" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="10.0dip" n1:src="@drawable/ic_gps" n1:scaleType="centerCrop" n1:layout_below="@id/relLayout1" n1:layout_alignParentRight="true" />
+    <Button n1:id="@+id/marked" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Mark Attendance" n1:layout_alignTop="@id/ic_gps" n1:layout_alignStart="@id/relLayout1"
+        n1:layout_alignLeft="@id/relLayout1" />
+</RelativeLayout>

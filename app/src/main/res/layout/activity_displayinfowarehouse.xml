@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Button n1:id="@+id/outlog" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="7.0dip" n1:text="Logout" n1:layout_alignParentTop="true" n1:layout_alignParentEnd="true" n2:layout_constraintBottom_toBottomOf="parent" n2:layout_constraintEnd_toEndOf="parent" n2:layout_constraintHorizontal_bias="1.0" n2:layout_constraintStart_toStartOf="parent" n2:layout_constraintTop_toTopOf="parent" n2:layout_constraintVertical_bias="0.0" xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:layout_alignParentRight="true" />
+    <Button n1:textColor="@android:color/white" n1:id="@+id/btnback" n1:background="#ff303f9f" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="8.0dip" n1:text="Back" n1:layout_marginEnd="8.0dip" n3:layout_constraintBottom_toBottomOf="parent" n3:layout_constraintEnd_toEndOf="parent" n3:layout_constraintHorizontal_bias="0.0" n3:layout_constraintStart_toStartOf="parent" n3:layout_constraintTop_toTopOf="parent" n3:layout_constraintVertical_bias="0.0" style="@style/Widget.AppCompat.Button" xmlns:n3="http://schemas.android.com/apk/res-auto"
+        n1:layout_marginRight="8.0dip" />
+    <TextView n1:textSize="20.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/name" n1:layout_width="150.0dip" n1:layout_height="50.0dip" n1:layout_marginTop="21.0dip" n1:layout_below="@+id/outlog" n1:layout_centerHorizontal="true" n1:textAllCaps="true" n1:textAlignment="center" />
+    <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/locat" n1:layout_width="330.0dip" n1:layout_height="30.0dip" n1:layout_marginTop="51.0dip" n1:layout_below="@+id/name" n1:layout_centerHorizontal="true" />
+    <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/contacperson" n1:layout_width="330.0dip" n1:layout_height="30.0dip" n1:layout_marginTop="121.0dip" n1:layout_below="@+id/name" n1:layout_centerHorizontal="true" />
+    <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/phone" n1:layout_width="330.0dip" n1:layout_height="30.0dip" n1:layout_marginTop="191.0dip" n1:layout_below="@+id/name" n1:layout_centerHorizontal="true" />
+    <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/validity" n1:layout_width="330.0dip" n1:layout_height="30.0dip" n1:layout_marginTop="261.0dip" n1:layout_below="@+id/name" n1:layout_centerHorizontal="true" />
+    <TextView n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/common_google_signin_btn_text_dark_focused" n1:id="@+id/facesize" n1:layout_width="330.0dip" n1:layout_height="30.0dip" n1:layout_marginTop="331.0dip" n1:layout_below="@+id/name" n1:layout_centerHorizontal="true" />
+    <TextView n1:id="@+id/textView3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="28.0dip" n1:text="Location" n1:layout_below="@+id/name" n1:layout_alignStart="@+id/locat"
+        n1:layout_alignLeft="@+id/locat" />
+    <TextView n1:id="@+id/textView2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="98.0dip" n1:text="Contact Person" n1:layout_below="@+id/name" n1:layout_alignStart="@+id/locat"
+        n1:layout_alignLeft="@+id/locat" />
+    <TextView n1:id="@+id/textView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="168.0dip" n1:text="Telephone Number" n1:layout_below="@+id/name" n1:layout_alignStart="@+id/locat"
+        n1:layout_alignLeft="@+id/locat" />
+    <TextView n1:id="@+id/textView9" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="238.0dip" n1:text="Validity" n1:layout_below="@+id/name" n1:layout_alignStart="@+id/locat"
+        n1:layout_alignLeft="@+id/locat" />
+    <TextView n1:id="@+id/textView5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="308.0dip" n1:text="Face Size" n1:layout_below="@+id/name" n1:layout_alignStart="@+id/locat"
+        n1:layout_alignLeft="@+id/locat" />1</RelativeLayout>
